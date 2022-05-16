@@ -23,7 +23,16 @@ public class Libro extends Escrito{
     public String interpretacion(){return interpretacion;}
 
     public String toString(){
-        return "a";
+        String resultado =  this.getOrigen()+"\n"+
+                this.getTitulo()+"\n"+
+                this.getAutor()+"\n"+
+                this.getPaginas()+"\n"+
+                this.getCo_autor()+"\n"+
+                this.editorial+"\n"+
+                this.edicion+"\n"+
+                this.interpretacion;
+
+        return  resultado;
     }
 
     //------------METODOS SET Y GET ---------------

@@ -8,5 +8,8 @@ public class Main {
                 "Alfabeto latino");
 
         System.out.println(alfabeto.toString());
+
+        Libro libro = new Libro("Creacion", "El resplandor", "Stephen King", 599, "N/A", "Doubleday", "Primera", "Escrito largo");
+        System.out.print(libro.toString());
     }
 }
