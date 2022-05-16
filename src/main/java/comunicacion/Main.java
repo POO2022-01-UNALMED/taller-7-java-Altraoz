@@ -2,8 +2,14 @@ package comunicacion;
 
 public class Main {
     public static void main(String[] args) {
-        Libro libro = new Libro("Creacion", "El resplandor", "Stephen King", 599, "N/A", "Doubleday", "Primera", "Escrito largo");
-        System.out.println(libro.interpretacion());
-        System.out.println(libro.palabrasTotales(140));
+        Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2,
+                "no se debe uno burlar de los demas, ni presumir o ser vanidoso", "Cuento corto");
+        String  comp = "pensamiento\n" +
+                "La tortuga y la liebre\n" +
+                "Esopo\n" +
+                "2\n" +
+                "no se debe uno burlar de los demas, ni presumir o ser vanidoso";
+
+        System.out.println(fabula.toString());
     }
 }

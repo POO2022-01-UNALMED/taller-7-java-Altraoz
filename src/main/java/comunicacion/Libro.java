@@ -29,8 +29,7 @@ public class Libro extends Escrito{
                 this.getPaginas()+"\n"+
                 this.getCo_autor()+"\n"+
                 this.editorial+"\n"+
-                this.edicion+"\n"+
-                this.interpretacion;
+                this.edicion;
 
         return  resultado;
     }
