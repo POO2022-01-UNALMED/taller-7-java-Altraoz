@@ -16,4 +16,10 @@ public class Fabula extends Escrito{
 
     }
 
+    public void setEnseñanza(String enseñanza){this.enseñanza = enseñanza;}
+    public void setInterpretacion(String interpretacion){this.interpretacion = interpretacion;}
+
+    public String getEnseñanza(){return enseñanza;}
+    public String getInterpretacion(){return interpretacion;}
+
 }
